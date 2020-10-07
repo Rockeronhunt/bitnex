@@ -1,0 +1,25 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="ar">locale/bitnex_ar.qm</file>
+        <file alias="bg">locale/bitnex_bg.qm</file>
+        <file alias="de">locale/bitnex_de.qm</file>
+        <file alias="en">locale/bitnex_en.qm</file>
+        <file alias="es">locale/bitnex_es.qm</file>
+        <file alias="fi">locale/bitnex_fi.qm</file>
+        <file alias="fr">locale/bitnex_fr.qm</file>
+        <file alias="it">locale/bitnex_it.qm</file>
+        <file alias="ja">locale/bitnex_ja.qm</file>
+        <file alias="ko">locale/bitnex_ko.qm</file>
+        <file alias="nl">locale/bitnex_nl.qm</file>
+        <file alias="pl">locale/bitnex_pl.qm</file>
+        <file alias="pt">locale/bitnex_pt.qm</file>
+        <file alias="ru">locale/bitnex_ru.qm</file>
+        <file alias="sk">locale/bitnex_sk.qm</file>
+        <file alias="sv">locale/bitnex_sv.qm</file>
+        <file alias="th">locale/bitnex_th.qm</file>
+        <file alias="tr">locale/bitnex_tr.qm</file>
+        <file alias="vi">locale/bitnex_vi.qm</file>
+        <file alias="zh_CN">locale/bitnex_zh_CN.qm</file>
+        <file alias="zh_TW">locale/bitnex_zh_TW.qm</file>
+    </qresource>
+</RCC>

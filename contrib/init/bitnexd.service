@@ -1,0 +1,22 @@
+[Unit]
+Description=BITNEX's distributed currency daemon
+After=network.target
+
+[Service]
+User=bitnexcore
+Group=bitnexcore
+
+Type=forking
+PIDFile=/var/lib/bitnexd/bitnexd.pid
+ExecStart=/usr/bin/bitnexd -daemon -pid=/var/lib/bitnexd/bitnexd.pid \
+-conf=/etc/bitnexcore/bitnex.conf -datadir=/var/lib/bitnexd -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

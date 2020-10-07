@@ -1,0 +1,6 @@
+usr/local/bin/bitnex-qt usr/bin
+share/pixmaps/bitnex32.xpm usr/share/pixmaps
+share/pixmaps/bitnex16.xpm usr/share/pixmaps
+share/pixmaps/bitnex128.png usr/share/pixmaps
+debian/bitnex-qt.desktop usr/share/applications
+debian/bitnex-qt.protocol usr/share/kde4/services/
